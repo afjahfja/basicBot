@@ -161,24 +161,24 @@
         return m;
     };
 
-    var botCreator = "HAX4_Biohazard";
+    var botCreator = "Matthew aka. Yemasthui";
     var botCreatorIDs = [];
 
     var basicBot = {
-        version: "1.0",
+        version: "2.1.2",
         status: false,
-        name: "TdrBot",
+        name: "basicBot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/pt.json",
+        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         settings: {
-            botName: "TdrBot",
+            botName: "basicBot",
             language: "english",
-            chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/pt.json",
+            chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
             maximumAfk: 120,
             afkRemoval: true,
             maximumDc: 60,
@@ -204,10 +204,10 @@
                 ["unavailable", "The song you played was not available for some users. "]
             ],
             afkpositionCheck: 15,
-            afkRankCheck: "Embaixador",
+            afkRankCheck: "ambassador",
             motdEnabled: false,
             motdInterval: 5,
-            motd: "Mensagem do dia : hauea",
+            motd: "Temporary Message of the Day",
             filterChat: true,
             etaRestriction: false,
             welcome: true,
@@ -215,7 +215,7 @@
             rulesLink: null,
             themeLink: null,
             fbLink: null,
-            youtubeLink: https://www.youtube.com/user/VergilGamers,
+            youtubeLink: null,
             website: null,
             intervalMessages: [],
             messageInterval: 5,
