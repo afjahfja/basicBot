@@ -161,24 +161,24 @@
         return m;
     };
 
-    var botCreator = "Matthew aka. Yemasthui";
+    var botCreator = "yRedNosez/Biohazard";
     var botCreatorIDs = [];
 
     var basicBot = {
-        version: "2.1.2",
+        version: "1.0",
         status: false,
-        name: "basicBot",
+        name: "TdrBot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/pt.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         settings: {
-            botName: "basicBot",
-            language: "english",
-            chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+            botName: "TdrBot",
+            language: "Portuguese",
+            chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/pt.json",
             maximumAfk: 120,
             afkRemoval: true,
             maximumDc: 60,
@@ -204,10 +204,10 @@
                 ["unavailable", "The song you played was not available for some users. "]
             ],
             afkpositionCheck: 15,
-            afkRankCheck: "ambassador",
+            afkRankCheck: "Embaixador",
             motdEnabled: false,
             motdInterval: 5,
-            motd: "Temporary Message of the Day",
+            motd: "Mensagem Temporaria",
             filterChat: true,
             etaRestriction: false,
             welcome: true,
@@ -235,7 +235,7 @@
             usercommand: true,
             allcommand: true,
             afkInterval: null,
-            autoskip: false,
+            autoskip: True,
             autoskipTimer: null,
             autodisableInterval: null,
             autodisableFunc: function () {
